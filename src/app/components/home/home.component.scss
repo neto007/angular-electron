@@ -1,17 +1,68 @@
-.container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+div.container4 {
+  height: 10em;
+  position: relative }
+div.container4 h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
 
-  background: url(../../../assets/background.jpg) no-repeat center fixed;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
 
-  .title {
-    color: white;
-    margin:0;
-    padding:50px 20px;
+  .botao {
+    outline:0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+    margin: 0px auto;
+    border: 2px solid rgb(30,205,151);
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    font: normal 20px/25px "Advent Pro", Helvetica, sans-serif;
+    color: rgb(30, 205, 151);
+    text-align: center;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0);
+    -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+    transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+  }
+  
+  .botao:hover {
+    color: rgba(255,255,255,1);
+    background: rgb(30, 205, 151);
+  }
+  .botao:active {
+    border: 2px solid rgba(33,224,163,1);
+    background: rgba(33,224,163,1);
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
   }
 
-}
+
+  .wrapper {
+    height: 100%;
+    min-height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+
+
+  img {
+
+    border-radius: 50px;
+
+  }
